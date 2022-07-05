@@ -75,6 +75,12 @@ a {
   }
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .hide-head {
   position: absolute;
   width: 1px;
@@ -433,14 +439,17 @@ a {
 }
 
 .hero__conteiner {
-  padding-top: 200px;
-  padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero {
-  max-width: 1600px;
+  max-width: 480px;
+  height: 400px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -453,6 +462,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .hero {
+    max-width: 1199px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/optimised-sizes/header-bg__m-min.jpg);
   }
 }
@@ -1333,11 +1343,8 @@ a {
 
 .project-card-pic {
   margin-bottom: -4px;
-  width: 100%;
   display: block;
-  max-width: 100%;
 }
-
 @media screen and (min-width: 768px) {
   .project__item {
     flex-basis: calc((100% - 30px) / 2);
