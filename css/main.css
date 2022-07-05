@@ -444,7 +444,7 @@ img {
 }
 
 .hero {
-  max-width: 480px;
+  max-width: 767px;
   height: 400px;
   padding-top: 118px;
   padding-bottom: 118px;
