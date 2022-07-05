@@ -1341,23 +1341,6 @@ img {
   }
 }
 
-.project-card-pic {
-  margin-bottom: -4px;
-  display: block;
-  height: 294px;
-  max-width: 450px;
-}
-@media screen and (min-width: 768px) {
-  .project-card-pic {
-    max-width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .project-card-pic {
-    max-width: 370px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .project__item {
     flex-basis: calc((100% - 30px) / 2);
