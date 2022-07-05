@@ -1,0 +1,32 @@
+:root {
+  /* background */
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --accent-bg-color: #f5f4fa;
+  /* text */
+  --primary-text-color: #212121;
+  --secondaty-text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
+  --nav__logo-color: #000000;
+  --logo-footer-color: #ffffff;
+  --footer-contacts-color: (rgba(255, 255, 255, 0.6));
+}
+
+// transition
+
+// @mixin transition(
+//   $color,
+//   $background,
+//   $fill,
+//   $box-shadow,
+//   $transform,
+//   $opacity
+// ) {
+//   transition-property: $color, $background, $fill, $box-shadow, $transform,
+//     $opacity;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   transition-delay: 0s;
+// }
+// $generalReset: margin: 0,text-decoration: none;

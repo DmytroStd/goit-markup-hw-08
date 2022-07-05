@@ -1,0 +1,22 @@
+// MAIN PAGE //
+
+// Utils
+@import './utils/varaibles';
+
+// Base styles
+@import './components/general-options';
+
+// Components styles
+@import './components/page-header';
+@import './components/logo';
+@import './components/page-hero';
+@import './components/buttons';
+@import './components/feature-section';
+@import './components/functions-section';
+@import './components/team-section';
+@import './components/clients-section';
+@import './components/page-footer';
+@import './components/modal';
+
+// PORTFOLIO PAGE //
+@import './components/projects-potfolio';

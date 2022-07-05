@@ -1,0 +1,103 @@
+/* Hero */
+
+
+/* Section */
+
+
+
+/* Feature/Functions/Our team */
+
+
+
+
+
+
+
+
+/* .functions .item {
+    margin-bottom: -4px;
+} */
+
+/* .functions .item+.item {
+    margin-left: 30px;
+} */
+
+/* PORTFOLIO PAGE */
+
+
+/* Buttons filtr */
+
+
+
+/* Projects */
+
+
+
+/* BACKDROP */
+
+
+/* 0000 .filtr .btn-list */
+/* текст */
+/* #212121 - цвет основного текста */
+/* #757575 - вторичный цвет */
+/* #FFFFFF - белый цвет теkста */
+/* #2196F3 - акцент (голубой) */
+/* rgba(255, 255, 255, 0.6) - цвет контактов в футере*/
+/* фон */
+/* #FFFFFF - основной цвет фона */
+/* #2F303A - вторичный цвет фона */
+/* #F5F4FA - третий цвет фона */
+
+/* a[href="tel:+38-099-111-11-11"] {
+    color: green
+}
+
+a[href="mailto:info@example.com"] {
+    color: red;
+} */
+
+/* .footer-address__item {
+    background-color: tomato;
+} */
+
+/* .container.footer-box a {
+    background-color: red;
+} */
+
+/* .team-socials__link:hover .team-icon {
+    background-color: red;
+} */
+
+/* .team-socials__item:nth-child(2) {
+    background-color: red;
+} */
+
+/* .project__item:nth-child(2n) .project-card__desk {
+    background-color: red;
+} */
+
+/* .project__item:nth-child(2n+1) .project__link:hover .project-card__text {
+    transform: translateY(0);
+    opacity: 1;
+} */
+/* label:last-of-type {
+    background-color: red;
+} */
+
+
+
+/* 1. Именно вот єта ссілка зеленіе; */
+/* .footer-address__item>.footer-address__map {
+    color: green;
+} */
+
+/* 2. Все дети голубіе; */
+/* .item {
+    background-color: blue;
+} */
+
+/* 3. все ссілки в контейнере зеленіе; */
+
+/* 4. иконка поменяла фон; */
+/* 5. второй в списке поменял фон; */
+/* 6. каждій второй заголовок карті поенял фон 7. */

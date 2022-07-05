@@ -1,0 +1,35 @@
+.nav__logo,
+.footer__logo {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(28px / 24px);
+
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.nav__logo {
+  color: var(--nav__logo-color);
+
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.footer__logo {
+  color: var(--logo-footer-color);
+
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.nav__excerpt,
+.footer__excerpt {
+  color: var(--accent-color);
+}
