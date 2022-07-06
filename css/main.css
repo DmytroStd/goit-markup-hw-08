@@ -131,8 +131,11 @@ img {
   text-transform: uppercase;
 }
 
-.header {
+.hero-container {
   border-bottom: 1px solid #ececec;
+}
+
+.header {
   position: relative;
 }
 
@@ -475,6 +478,8 @@ img {
   .hero {
     max-width: 1600px;
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/optimised-sizes/header-bg__l-min.jpg);
   }
 }
@@ -607,6 +612,11 @@ img {
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .filtr-btn {
+    margin-bottom: 50px;
+  }
+}
 .filtr-btn__item {
   display: inline-block;
   border-radius: 4px;
@@ -686,7 +696,7 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .feature__title {
     display: flex;
     justify-content: flex-start;
